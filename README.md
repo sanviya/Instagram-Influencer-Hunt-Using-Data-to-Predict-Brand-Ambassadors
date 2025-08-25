@@ -21,8 +21,9 @@ This project uses publicly available Instagram influencer data (from **Kaggle**)
 3. **Top 5 Influencer Selection**  
    - Weighted engagement score formula:  
      `Influencer Score = (0.6 * Authentic Engagement + 0.4 * Avg Engagement) / Followers`  
-   - Sorted influencers by score to pick the top 5.  
-   - Focused on high engagement relative to follower count to find authentic micro-influencers.
+   - 60% weight to Authentic Engagement – reflects genuine interactions from real followers.
+   - 40% weight to Engagement Average – accounts for general engagement trends, slightly less important. 
+   - Dividing by followers allows fair comparison,ensuring smaller influencers with highly engaged audiences are not overlooked.
 
 ## Bonus / Brownie Points
 - Ranked all influencers using the formula and highlighted **Top 5** visually.  
